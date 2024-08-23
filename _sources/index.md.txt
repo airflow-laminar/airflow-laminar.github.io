@@ -1,0 +1,21 @@
+```{toctree}
+---
+caption: ""
+maxdepth: 2
+hidden: true
+---
+
+
+
+```
+
+# laminar
+A collection of utilities to make [Airflow](https://airflow.apache.org) *smoother*.
+
+| Name | Repo | Docs | Description |
+| :--- | :--- | :--- | :---------- |
+| [airflow-priority](https://github.com/airflow-laminar/airflow-priority) | [![Repo](https://img.shields.io/badge/repo-%20-blue?logo=github&logoColor=white)](https://github.com/airflow-laminar/airflow-priority) | [![Docs](https://img.shields.io/badge/docs-%20-green?logo=bookstack&logoColor=white)](https://airflow-laminar.github.io/airflow-priority/) | Priority tags (e.g. `P1-P5`) for DAGs |
+| [airflow-config](https://github.com/airflow-laminar/airflow-config) | [![Repo](https://img.shields.io/badge/repo-%20-blue?logo=github&logoColor=white)](https://github.com/airflow-laminar/airflow-config) | [![Docs](https://img.shields.io/badge/docs-%20-green?logo=bookstack&logoColor=white)](https://airflow-laminar.github.io/airflow-config/) | Hydra/Omegaconf/Pydantic based DAG configuration and generation | 
+| [airflow-supervisor](https://github.com/airflow-laminar/airflow-supervisor) | [![Repo](https://img.shields.io/badge/repo-%20-blue?logo=github&logoColor=white)](https://github.com/airflow-laminar/airflow-supervisor) | [![Docs](https://img.shields.io/badge/docs-%20-green?logo=bookstack&logoColor=white)](https://airflow-laminar.github.io/airflow-supervisor/) | Utilities for running long-running or always-on jobs with [supervisor](http://supervisord.org) |
+| [airflow-ha](https://github.com/airflow-laminar/airflow-ha) | [![Repo](https://img.shields.io/badge/repo-%20-blue?logo=github&logoColor=white)](https://github.com/airflow-laminar/airflow-ha) | [![Docs](https://img.shields.io/badge/docs-%20-green?logo=bookstack&logoColor=white)](https://airflow-laminar.github.io/airflow-ha/) | High Availability (HA) DAG Utility |
+| [airflow-common-operators](https://github.com/airflow-laminar/airflow-common-operators) | [![Repo](https://img.shields.io/badge/repo-%20-blue?logo=github&logoColor=white)](https://github.com/airflow-laminar/airflow-common-operators) | [![Docs](https://img.shields.io/badge/docs-%20-green?logo=bookstack&logoColor=white)](https://airflow-laminar.github.io/airflow-common-operators/) | Common operator patterns and utility dags |
